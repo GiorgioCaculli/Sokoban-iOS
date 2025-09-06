@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  Sokoban
-//
-//  Created by Giorgio Caculli on 01/09/2025.
-//
-
 import Foundation
 import SwiftData
 

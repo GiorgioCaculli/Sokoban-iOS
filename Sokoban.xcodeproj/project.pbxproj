@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		616498102E69DBDB009B7A86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6164980F2E69DBDB009B7A86 /* README.md */; };
+		616498122E69DBF9009B7A86 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 616498112E69DBF9009B7A86 /* LICENSE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		61CF5F1F2E659F7200B6B34D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6164980F2E69DBDB009B7A86 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		616498112E69DBF9009B7A86 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		61CF5F0A2E659F6E00B6B34D /* Sokoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sokoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CF5F1E2E659F7200B6B34D /* SokobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CF5F282E659F7200B6B34D /* SokobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +95,8 @@
 		61CF5F012E659F6E00B6B34D = {
 			isa = PBXGroup;
 			children = (
+				616498112E69DBF9009B7A86 /* LICENSE.md */,
+				6164980F2E69DBDB009B7A86 /* README.md */,
 				61CF5F0C2E659F6E00B6B34D /* Sokoban */,
 				61CF5F212E659F7200B6B34D /* SokobanTests */,
 				61CF5F2B2E659F7200B6B34D /* SokobanUITests */,
@@ -208,6 +217,10 @@
 			);
 			mainGroup = 61CF5F012E659F6E00B6B34D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				616498062E69DB0B009B7A86 /* XCRemoteSwiftPackageReference "Util-Cpp" */,
+				616498072E69DB27009B7A86 /* XCRemoteSwiftPackageReference "Sokoban-Cpp" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 61CF5F0B2E659F6E00B6B34D /* Products */;
 			projectDirPath = "";
@@ -225,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616498122E69DBF9009B7A86 /* LICENSE.md in Resources */,
+				616498102E69DBDB009B7A86 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		616498062E69DB0B009B7A86 /* XCRemoteSwiftPackageReference "Util-Cpp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/GiorgioCaculli/Util-Cpp";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		616498072E69DB27009B7A86 /* XCRemoteSwiftPackageReference "Sokoban-Cpp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/GiorgioCaculli/Sokoban-Cpp";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 61CF5F022E659F6E00B6B34D /* Project object */;
 }
