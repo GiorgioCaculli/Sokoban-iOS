@@ -7,60 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		616498102E69DBDB009B7A86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6164980F2E69DBDB009B7A86 /* README.md */; };
-		616498122E69DBF9009B7A86 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 616498112E69DBF9009B7A86 /* LICENSE.md */; };
+		61829A4A2E6F4B37009FB761 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 61829A492E6F4B37009FB761 /* Documentation.docc */; };
+		61829AB92E6F4CFE009FB761 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 61829AB82E6F4CFE009FB761 /* README.md */; };
+		61829ABA2E6F4CFE009FB761 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 61829AB72E6F4CFE009FB761 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		61CF5F1F2E659F7200B6B34D /* PBXContainerItemProxy */ = {
+		61829A072E6F07EF009FB761 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61CF5F022E659F6E00B6B34D /* Project object */;
+			containerPortal = 618299E52E6F07EC009FB761 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61CF5F092E659F6E00B6B34D;
+			remoteGlobalIDString = 618299EC2E6F07EC009FB761;
 			remoteInfo = Sokoban;
 		};
-		61CF5F292E659F7200B6B34D /* PBXContainerItemProxy */ = {
+		61829A112E6F07F0009FB761 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61CF5F022E659F6E00B6B34D /* Project object */;
+			containerPortal = 618299E52E6F07EC009FB761 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61CF5F092E659F6E00B6B34D;
+			remoteGlobalIDString = 618299EC2E6F07EC009FB761;
 			remoteInfo = Sokoban;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6164980F2E69DBDB009B7A86 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		616498112E69DBF9009B7A86 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		61CF5F0A2E659F6E00B6B34D /* Sokoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sokoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		61CF5F1E2E659F7200B6B34D /* SokobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61CF5F282E659F7200B6B34D /* SokobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		618299ED2E6F07EC009FB761 /* Sokoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sokoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61829A062E6F07EF009FB761 /* SokobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61829A102E6F07F0009FB761 /* SokobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61829A492E6F4B37009FB761 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		61829AB72E6F4CFE009FB761 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		61829AB82E6F4CFE009FB761 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		61CF5F302E659F7200B6B34D /* Exceptions for "Sokoban" folder in "Sokoban" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 61CF5F092E659F6E00B6B34D /* Sokoban */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		61CF5F0C2E659F6E00B6B34D /* Sokoban */ = {
+		618299EF2E6F07EC009FB761 /* Sokoban */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				61CF5F302E659F7200B6B34D /* Exceptions for "Sokoban" folder in "Sokoban" target */,
-			);
 			path = Sokoban;
 			sourceTree = "<group>";
 		};
-		61CF5F212E659F7200B6B34D /* SokobanTests */ = {
+		61829A092E6F07EF009FB761 /* SokobanTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SokobanTests;
 			sourceTree = "<group>";
 		};
-		61CF5F2B2E659F7200B6B34D /* SokobanUITests */ = {
+		61829A132E6F07F0009FB761 /* SokobanUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SokobanUITests;
 			sourceTree = "<group>";
@@ -68,21 +57,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61CF5F072E659F6E00B6B34D /* Frameworks */ = {
+		618299EA2E6F07EC009FB761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CF5F1B2E659F7200B6B34D /* Frameworks */ = {
+		61829A032E6F07EF009FB761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CF5F252E659F7200B6B34D /* Frameworks */ = {
+		61829A0D2E6F07F0009FB761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,24 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61CF5F012E659F6E00B6B34D = {
+		618299E42E6F07EC009FB761 = {
 			isa = PBXGroup;
 			children = (
-				616498112E69DBF9009B7A86 /* LICENSE.md */,
-				6164980F2E69DBDB009B7A86 /* README.md */,
-				61CF5F0C2E659F6E00B6B34D /* Sokoban */,
-				61CF5F212E659F7200B6B34D /* SokobanTests */,
-				61CF5F2B2E659F7200B6B34D /* SokobanUITests */,
-				61CF5F0B2E659F6E00B6B34D /* Products */,
+				61829AB72E6F4CFE009FB761 /* LICENSE.md */,
+				61829AB82E6F4CFE009FB761 /* README.md */,
+				618299EF2E6F07EC009FB761 /* Sokoban */,
+				61829A092E6F07EF009FB761 /* SokobanTests */,
+				61829A132E6F07F0009FB761 /* SokobanUITests */,
+				618299EE2E6F07EC009FB761 /* Products */,
+				61829A492E6F4B37009FB761 /* Documentation.docc */,
 			);
 			sourceTree = "<group>";
 		};
-		61CF5F0B2E659F6E00B6B34D /* Products */ = {
+		618299EE2E6F07EC009FB761 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61CF5F0A2E659F6E00B6B34D /* Sokoban.app */,
-				61CF5F1E2E659F7200B6B34D /* SokobanTests.xctest */,
-				61CF5F282E659F7200B6B34D /* SokobanUITests.xctest */,
+				618299ED2E6F07EC009FB761 /* Sokoban.app */,
+				61829A062E6F07EF009FB761 /* SokobanTests.xctest */,
+				61829A102E6F07F0009FB761 /* SokobanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,98 +107,98 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61CF5F092E659F6E00B6B34D /* Sokoban */ = {
+		618299EC2E6F07EC009FB761 /* Sokoban */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61CF5F312E659F7200B6B34D /* Build configuration list for PBXNativeTarget "Sokoban" */;
+			buildConfigurationList = 61829A1A2E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "Sokoban" */;
 			buildPhases = (
-				61CF5F062E659F6E00B6B34D /* Sources */,
-				61CF5F072E659F6E00B6B34D /* Frameworks */,
-				61CF5F082E659F6E00B6B34D /* Resources */,
+				618299E92E6F07EC009FB761 /* Sources */,
+				618299EA2E6F07EC009FB761 /* Frameworks */,
+				618299EB2E6F07EC009FB761 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				61CF5F0C2E659F6E00B6B34D /* Sokoban */,
+				618299EF2E6F07EC009FB761 /* Sokoban */,
 			);
 			name = Sokoban;
 			packageProductDependencies = (
 			);
 			productName = Sokoban;
-			productReference = 61CF5F0A2E659F6E00B6B34D /* Sokoban.app */;
+			productReference = 618299ED2E6F07EC009FB761 /* Sokoban.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61CF5F1D2E659F7200B6B34D /* SokobanTests */ = {
+		61829A052E6F07EF009FB761 /* SokobanTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61CF5F362E659F7200B6B34D /* Build configuration list for PBXNativeTarget "SokobanTests" */;
+			buildConfigurationList = 61829A1D2E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "SokobanTests" */;
 			buildPhases = (
-				61CF5F1A2E659F7200B6B34D /* Sources */,
-				61CF5F1B2E659F7200B6B34D /* Frameworks */,
-				61CF5F1C2E659F7200B6B34D /* Resources */,
+				61829A022E6F07EF009FB761 /* Sources */,
+				61829A032E6F07EF009FB761 /* Frameworks */,
+				61829A042E6F07EF009FB761 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61CF5F202E659F7200B6B34D /* PBXTargetDependency */,
+				61829A082E6F07EF009FB761 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				61CF5F212E659F7200B6B34D /* SokobanTests */,
+				61829A092E6F07EF009FB761 /* SokobanTests */,
 			);
 			name = SokobanTests;
 			packageProductDependencies = (
 			);
 			productName = SokobanTests;
-			productReference = 61CF5F1E2E659F7200B6B34D /* SokobanTests.xctest */;
+			productReference = 61829A062E6F07EF009FB761 /* SokobanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		61CF5F272E659F7200B6B34D /* SokobanUITests */ = {
+		61829A0F2E6F07F0009FB761 /* SokobanUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61CF5F392E659F7200B6B34D /* Build configuration list for PBXNativeTarget "SokobanUITests" */;
+			buildConfigurationList = 61829A202E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "SokobanUITests" */;
 			buildPhases = (
-				61CF5F242E659F7200B6B34D /* Sources */,
-				61CF5F252E659F7200B6B34D /* Frameworks */,
-				61CF5F262E659F7200B6B34D /* Resources */,
+				61829A0C2E6F07F0009FB761 /* Sources */,
+				61829A0D2E6F07F0009FB761 /* Frameworks */,
+				61829A0E2E6F07F0009FB761 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61CF5F2A2E659F7200B6B34D /* PBXTargetDependency */,
+				61829A122E6F07F0009FB761 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				61CF5F2B2E659F7200B6B34D /* SokobanUITests */,
+				61829A132E6F07F0009FB761 /* SokobanUITests */,
 			);
 			name = SokobanUITests;
 			packageProductDependencies = (
 			);
 			productName = SokobanUITests;
-			productReference = 61CF5F282E659F7200B6B34D /* SokobanUITests.xctest */;
+			productReference = 61829A102E6F07F0009FB761 /* SokobanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		61CF5F022E659F6E00B6B34D /* Project object */ = {
+		618299E52E6F07EC009FB761 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					61CF5F092E659F6E00B6B34D = {
+					618299EC2E6F07EC009FB761 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					61CF5F1D2E659F7200B6B34D = {
+					61829A052E6F07EF009FB761 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 61CF5F092E659F6E00B6B34D;
+						TestTargetID = 618299EC2E6F07EC009FB761;
 					};
-					61CF5F272E659F7200B6B34D = {
+					61829A0F2E6F07F0009FB761 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 61CF5F092E659F6E00B6B34D;
+						TestTargetID = 618299EC2E6F07EC009FB761;
 					};
 				};
 			};
-			buildConfigurationList = 61CF5F052E659F6E00B6B34D /* Build configuration list for PBXProject "Sokoban" */;
+			buildConfigurationList = 618299E82E6F07EC009FB761 /* Build configuration list for PBXProject "Sokoban" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,43 +207,40 @@
 				it,
 				fr,
 				ja,
+				ko,
 			);
-			mainGroup = 61CF5F012E659F6E00B6B34D;
+			mainGroup = 618299E42E6F07EC009FB761;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				616498062E69DB0B009B7A86 /* XCRemoteSwiftPackageReference "Util-Cpp" */,
-				616498072E69DB27009B7A86 /* XCRemoteSwiftPackageReference "Sokoban-Cpp" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 61CF5F0B2E659F6E00B6B34D /* Products */;
+			productRefGroup = 618299EE2E6F07EC009FB761 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61CF5F092E659F6E00B6B34D /* Sokoban */,
-				61CF5F1D2E659F7200B6B34D /* SokobanTests */,
-				61CF5F272E659F7200B6B34D /* SokobanUITests */,
+				618299EC2E6F07EC009FB761 /* Sokoban */,
+				61829A052E6F07EF009FB761 /* SokobanTests */,
+				61829A0F2E6F07F0009FB761 /* SokobanUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61CF5F082E659F6E00B6B34D /* Resources */ = {
+		618299EB2E6F07EC009FB761 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616498122E69DBF9009B7A86 /* LICENSE.md in Resources */,
-				616498102E69DBDB009B7A86 /* README.md in Resources */,
+				61829AB92E6F4CFE009FB761 /* README.md in Resources */,
+				61829ABA2E6F4CFE009FB761 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CF5F1C2E659F7200B6B34D /* Resources */ = {
+		61829A042E6F07EF009FB761 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CF5F262E659F7200B6B34D /* Resources */ = {
+		61829A0E2E6F07F0009FB761 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,21 +250,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		61CF5F062E659F6E00B6B34D /* Sources */ = {
+		618299E92E6F07EC009FB761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61829A4A2E6F4B37009FB761 /* Documentation.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61829A022E6F07EF009FB761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61CF5F1A2E659F7200B6B34D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61CF5F242E659F7200B6B34D /* Sources */ = {
+		61829A0C2E6F07F0009FB761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,86 +275,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61CF5F202E659F7200B6B34D /* PBXTargetDependency */ = {
+		61829A082E6F07EF009FB761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61CF5F092E659F6E00B6B34D /* Sokoban */;
-			targetProxy = 61CF5F1F2E659F7200B6B34D /* PBXContainerItemProxy */;
+			target = 618299EC2E6F07EC009FB761 /* Sokoban */;
+			targetProxy = 61829A072E6F07EF009FB761 /* PBXContainerItemProxy */;
 		};
-		61CF5F2A2E659F7200B6B34D /* PBXTargetDependency */ = {
+		61829A122E6F07F0009FB761 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61CF5F092E659F6E00B6B34D /* Sokoban */;
-			targetProxy = 61CF5F292E659F7200B6B34D /* PBXContainerItemProxy */;
+			target = 618299EC2E6F07EC009FB761 /* Sokoban */;
+			targetProxy = 61829A112E6F07F0009FB761 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		61CF5F322E659F7200B6B34D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sokoban/Sokoban.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sokoban/Preview Content\"";
-				DEVELOPMENT_TEAM = Y44D85Q2H9;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sokoban/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Sokoban;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.Sokoban;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		61CF5F332E659F7200B6B34D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sokoban/Sokoban.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sokoban/Preview Content\"";
-				DEVELOPMENT_TEAM = Y44D85Q2H9;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sokoban/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Sokoban;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.Sokoban;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		61CF5F342E659F7200B6B34D /* Debug */ = {
+		61829A182E6F07F0009FB761 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		61CF5F352E659F7200B6B34D /* Release */ = {
+		61829A192E6F07F0009FB761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -487,7 +409,67 @@
 			};
 			name = Release;
 		};
-		61CF5F372E659F7200B6B34D /* Debug */ = {
+		61829A1B2E6F07F0009FB761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y44D85Q2H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sokoban;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.Sokoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61829A1C2E6F07F0009FB761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y44D85Q2H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sokoban;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.Sokoban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61829A1E2E6F07F0009FB761 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,7 +479,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.SokobanTests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.SokobanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -506,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		61CF5F382E659F7200B6B34D /* Release */ = {
+		61829A1F2E6F07F0009FB761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,7 +498,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.SokobanTests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.SokobanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -525,7 +507,7 @@
 			};
 			name = Release;
 		};
-		61CF5F3A2E659F7200B6B34D /* Debug */ = {
+		61829A212E6F07F0009FB761 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -533,7 +515,7 @@
 				DEVELOPMENT_TEAM = Y44D85Q2H9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.SokobanUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.SokobanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -542,7 +524,7 @@
 			};
 			name = Debug;
 		};
-		61CF5F3B2E659F7200B6B34D /* Release */ = {
+		61829A222E6F07F0009FB761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -550,7 +532,7 @@
 				DEVELOPMENT_TEAM = Y44D85Q2H9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.SokobanUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = it.caculli.gzc.SokobanUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -562,62 +544,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61CF5F052E659F6E00B6B34D /* Build configuration list for PBXProject "Sokoban" */ = {
+		618299E82E6F07EC009FB761 /* Build configuration list for PBXProject "Sokoban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CF5F342E659F7200B6B34D /* Debug */,
-				61CF5F352E659F7200B6B34D /* Release */,
+				61829A182E6F07F0009FB761 /* Debug */,
+				61829A192E6F07F0009FB761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61CF5F312E659F7200B6B34D /* Build configuration list for PBXNativeTarget "Sokoban" */ = {
+		61829A1A2E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "Sokoban" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CF5F322E659F7200B6B34D /* Debug */,
-				61CF5F332E659F7200B6B34D /* Release */,
+				61829A1B2E6F07F0009FB761 /* Debug */,
+				61829A1C2E6F07F0009FB761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61CF5F362E659F7200B6B34D /* Build configuration list for PBXNativeTarget "SokobanTests" */ = {
+		61829A1D2E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "SokobanTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CF5F372E659F7200B6B34D /* Debug */,
-				61CF5F382E659F7200B6B34D /* Release */,
+				61829A1E2E6F07F0009FB761 /* Debug */,
+				61829A1F2E6F07F0009FB761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61CF5F392E659F7200B6B34D /* Build configuration list for PBXNativeTarget "SokobanUITests" */ = {
+		61829A202E6F07F0009FB761 /* Build configuration list for PBXNativeTarget "SokobanUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CF5F3A2E659F7200B6B34D /* Debug */,
-				61CF5F3B2E659F7200B6B34D /* Release */,
+				61829A212E6F07F0009FB761 /* Debug */,
+				61829A222E6F07F0009FB761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		616498062E69DB0B009B7A86 /* XCRemoteSwiftPackageReference "Util-Cpp" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitlab.com/GiorgioCaculli/Util-Cpp";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		616498072E69DB27009B7A86 /* XCRemoteSwiftPackageReference "Sokoban-Cpp" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://gitlab.com/GiorgioCaculli/Sokoban-Cpp";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
-	rootObject = 61CF5F022E659F6E00B6B34D /* Project object */;
+	rootObject = 618299E52E6F07EC009FB761 /* Project object */;
 }

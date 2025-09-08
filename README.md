@@ -1,2 +1,2 @@
-#  Sokoban iOS Source Code
+#  Giorgio's Sokoban iOS Source Code
 
